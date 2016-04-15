@@ -5,7 +5,7 @@ import java.util.EmptyStackException;
 /**
  * Created by Younes on 14/04/2016.
  *
- * commenatire exigence #1
+ * commenatire exigence #2
  */
 public interface SampleStack {
 
