@@ -4,16 +4,40 @@ import java.util.EmptyStackException;
 
 /**
  * Created by Younes on 14/04/2016.
+ *
+ * commenatire exigence #1
  */
 public interface SampleStack {
 
-    public boolean isEmpty();
+    /**
+     *test si la pile est vide.
+     * @return un boolean indiquant
+     */
+     boolean isEmpty();
 
-    public int getSize();
+    /**
+     *kkps.
+     * @return mkmfdls
+     */
+     int getSize();
 
-    public void push(Item item);
+    /**
+     *lmkmfl.
+     * @param item lmdsm
+     */
+     void push(Item item);
 
-    public Item peek() throws EmptyStackException;
+    /**
+     *dgdgsg.
+     * @return sdgd
+     * @throws EmptyStackException mùklfgkdfo
+     */
+     Item peek() throws EmptyStackException;
 
-    public Item pop() throws EmptyStackException;
+    /**
+     *mùdsmlfds.
+     * @return fzzef
+     * @throws EmptyStackException kjffjd
+     */
+     Item pop() throws EmptyStackException;
 }

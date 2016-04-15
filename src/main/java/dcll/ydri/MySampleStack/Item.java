@@ -1,21 +1,37 @@
 package dcll.ydri.MySampleStack;
 
+
 /**
  * Created by Younes on 14/04/2016.
  */
-public class Item {
+final class Item {
 
+    /**
+     * dfsdfsds.
+     */
     private Object value;
 
-    Item(Object value){
-        setValue(value);
+    /**
+     * sfqff.
+     * @param v qfqsfq
+     */
+    Item(final Object v) {
+        setValue(v);
     }
 
+    /**
+     * sqqsfsqf.
+     * @return qfsqqf
+     */
     public Object getValue() {
         return value;
     }
 
-    public void setValue(Object value) {
-        this.value = value;
+    /**
+     * fqfsqfqs.
+     * @param v sqqzf
+     */
+    public void setValue(final Object v) {
+        this.value = v;
     }
 }

@@ -6,9 +6,13 @@ import java.util.Stack;
 /**
  * Created by Younes on 14/04/2016.
  */
-public class SimpleStackImlp implements SampleStack {
+final class SimpleStackImlp implements SampleStack {
 
-    Stack<Object> wrapperStack = new Stack<Object>();
+    /**
+     * ldksqlmkdsqmfkqmfkqof.
+     */
+    private Stack<Object> wrapperStack = new Stack<Object>();
+
     @Override
     public boolean isEmpty() {
 
@@ -21,13 +25,13 @@ public class SimpleStackImlp implements SampleStack {
     }
 
     @Override
-    public void push(Item item) {
+    public void push(final Item item) {
         wrapperStack.push(item);
     }
 
     @Override
     public Item peek() throws EmptyStackException {
-        return (Item)wrapperStack.peek();
+        return (Item) wrapperStack.peek();
     }
 
     @Override
